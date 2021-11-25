@@ -24,5 +24,13 @@ int main()
   std::cout << "quat_y: " << quat.y() << std::endl;
   std::cout << "quat_z: " << quat.z() << std::endl;
 
+  // Outputs:
+  // real: 0.866025
+  // imag: 0.5
+  // quat_w: 0.965926
+  // quat_x: 0
+  // quat_y: 0
+  // quat_z: 0.258819
+
   return 0;
 }
